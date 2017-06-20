@@ -1,24 +1,36 @@
-.headline {
+/* Header Section */
+
+header {
   border-bottom: solid black 1px;
 }
 
-.headlineA {
-  display: inline-flex;
+.headline {
+  display: flex;
+  position: fixed;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
-  padding-left: 50;
-  padding-bottom: 150;
-
+  width: 100%;
+  align-items: center;
+  z-index: 1;
 }
 
 .logo {
-  display: inline-flex;
+  display: flex;
+  padding-left: 40px;
 }
 
-.nav {
+nav {
+  font-weight: bold;
+  font-family: Verdana;
+  font-size: 14px;
+  color: MediumAquamarine;
   display: inline-block;
-  justify-content: space-around;
-  align-content: flex-end;
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
 }
