@@ -1,0 +1,15 @@
+.headlineA {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.nav {
+  display: inline-block;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
