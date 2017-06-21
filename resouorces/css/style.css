@@ -2,6 +2,8 @@
 
 header {
   border-bottom: solid black 1px;
+  background-color: white;
+  flex-flow: row;
 }
 
 .headline {
@@ -13,21 +15,21 @@ header {
   color: MediumAquamarine;
   width: 100%;
   align-items: center;
-  z-index: 1;
 }
 
 .logo {
-  display: flex;
   padding-left: 40px;
 }
 
 nav {
+  height: 57px;
+  width: 310px;
   font-weight: bold;
   font-family: Verdana;
   font-size: 14px;
   color: MediumAquamarine;
   display: inline-block;
-  padding-right: 40px;
+  padding-left: 1000px;
 }
 
 nav span {
