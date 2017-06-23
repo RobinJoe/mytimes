@@ -43,3 +43,34 @@ nav span {
 a {
   color: black;
 }
+
+/* The Content Section */
+
+div {
+  border: 1px solid black;
+}
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.1 {
+  width: 630px;
+}
+
+.column.2 {
+  width: 300px;
+}
+
+.column.3 {
+  width: 240px;
+}
